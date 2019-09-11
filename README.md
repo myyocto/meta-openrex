@@ -30,7 +30,7 @@ Copy and paste this into your Linux host machine
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
      
-      <remote fetch="git://github.com/myyocto" name="suen"/>
+      <remote fetch="git://github.com/myyocto" name="myyocto"/>
      
       <project remote="myyocto" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
         <copyfile src="openrex-setup.sh" dest="openrex-setup.sh"/>
